@@ -3,6 +3,12 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
 
 /*  Home */
+
 @import "./home/intro.css";
+
+/* Bicicletas */
+@import "../css/bicicletas.css/bicicletas-lista.css";
