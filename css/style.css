@@ -7,8 +7,9 @@
 @import "./utilidades/cores.css";
 
 /*  Home */
-
+@import "./home/tecnologia.css";
 @import "./home/intro.css";
+@import "./home/parceiros.css";
 
 /* Bicicletas */
 @import "../css/bicicletas.css/bicicletas-lista.css";
