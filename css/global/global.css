@@ -36,3 +36,7 @@ img[src$=".jpg"] {
 blockquote {
   margin: 0;
 }
+
+dd {
+  margin: 0px;
+}
