@@ -36,3 +36,6 @@
 
 /* Orçamento */
 @import "./orcamento/orcamento.css";
+
+/* Animação Plugin */
+@import "./utilidades/anime.css";

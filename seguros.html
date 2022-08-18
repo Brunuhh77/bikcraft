@@ -55,7 +55,7 @@
 
 
 
-        <div class="seguros container">
+        <div class="seguros container fadeInLeft" data-anime="400">
 
 
             <div class="seguros-item">
@@ -71,12 +71,12 @@
                     <li>Cobertura estadual</li>
                 </ul>
 
-                <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+                <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
 
             </div>
 
 
-            <div class="seguros-item">
+            <div class="seguros-item fadeInRight" data-anime="400">
 
                 <h3 class="font-1-xl cor-p1">OURO</h3>
 
@@ -90,7 +90,7 @@
                     <li>Acesso ao Clube Bikcraft</li>
                 </ul>
 
-                <a class="botao" href="./orcamento.html">Inscreva-se</a>
+                <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
 
             </div>
 
@@ -175,9 +175,9 @@
             <dl>
                 <div>
 
-                    <dt class="font-1-m-b cor-12">Qual forma de pagamento vocês aceitam?
+                    <dt><button class="font-1-m-b cor-12" aria-controls="pergunta1" aria-expanded="false">Qual forma de pagamento vocês aceitam?</button>
                     </dt>
-                    <dd class="font-2-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                    <dd class="font-2-s cor-9" id="pergunta1">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
                 </div>
 
 
@@ -281,6 +281,10 @@
 
 
     </footer>
+
+    <script src="./js/plugins/simple-anime.js"></script>
+
+    <script src="./js/script.js">   </script>
 
 </body>
 

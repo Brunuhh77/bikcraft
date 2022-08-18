@@ -17,9 +17,13 @@
   flex: 1;
   min-width: 200px;
 }
+.second {
+  flex: 1;
+  min-width: 200px;
+}
 
-.bicicleta-img img:first-child {
-  min-width: 100%;
+.first {
+  min-width: 100% !important;
 }
 
 .bicicleta-conteudo > p {
